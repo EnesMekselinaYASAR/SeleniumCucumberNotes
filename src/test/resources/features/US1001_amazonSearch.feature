@@ -1,4 +1,4 @@
-Feature: Amazon Search
+Feature: US1001 Kullanici Amazon Sayfasinda Arama Yapar
 
   Scenario: TC01 kullanici amazonda Nutella aratir
 

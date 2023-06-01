@@ -56,4 +56,14 @@ public class HMCStepDefinitions {
     public void gecersizUsernameGirer() {
         hmcPage.usernameKutusu.sendKeys(ConfigReader.getProperty("hmcWrongUsername"));
     }
+
+    @And("gecersiz username olarak {string} girer")
+    public void gecersizUsernameOlarakGirer(String username) {
+        hmcPage.usernameKutusu.sendKeys(username);
+    }
+
+    @And("gecersiz password olarak {string} girer")
+    public void gecersizPasswordOlarakGirer(String password) {
+        hmcPage.passwordKutusu.sendKeys(password);
+    }
 }

@@ -11,8 +11,8 @@
       And sayfayi kapatir
 
       Examples:
-      |istenenKelime|istenenKelimeKontrol|
-      |nutella      |nutella             |
-      |java         |java                |
-      |elma         |elma                |
-      |armut        |armut               |
+      |istenenKelime|
+      |nutella      |
+      |java         |
+      |elma         |
+      |armut        |

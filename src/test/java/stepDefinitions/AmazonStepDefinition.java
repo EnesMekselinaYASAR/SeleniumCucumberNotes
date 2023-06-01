@@ -72,6 +72,7 @@ public class AmazonStepDefinition {
     @Given("kullanici {string} anasayfasinda") // amazonUrl
     public void kullaniciAnasayfasinda(String istenenUrl) {
         Driver.getDriver().get(ConfigReader.getProperty(istenenUrl));
+
     }
 
     @And("url'in {string} icerdigini test eder")

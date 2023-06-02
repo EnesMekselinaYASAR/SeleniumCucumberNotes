@@ -6,9 +6,10 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
+        plugin = {"html:target/default-cucumber-reports.html"},//raporlama  için gerekli plugin
         features = "src/test/resources/features",
         glue = "stepDefinitions",
-        tags = "@hmc",
+        tags = "@negative",
         dryRun = false
 )
 

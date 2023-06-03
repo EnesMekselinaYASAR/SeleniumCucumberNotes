@@ -8,6 +8,7 @@ pages\AmazonPage.class
 runners\TestRunner.class
 utilities\Driver.class
 pages\HMCPage.class
+stepDefinitions\ExcelStepDefinition.class
 stepDefinitions\Hooks.class
 runners\TestRunner2.class
 pages\DataTablesPage.class

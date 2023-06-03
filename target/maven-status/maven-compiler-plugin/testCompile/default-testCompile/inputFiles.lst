@@ -2,6 +2,7 @@ C:\Users\enesm\IdeaProjects\SeleniumCucumberNotes\src\test\java\pages\DataTables
 C:\Users\enesm\IdeaProjects\SeleniumCucumberNotes\src\test\java\utilities\ConfigReader.java
 C:\Users\enesm\IdeaProjects\SeleniumCucumberNotes\src\test\java\utilities\Driver.java
 C:\Users\enesm\IdeaProjects\SeleniumCucumberNotes\src\test\java\stepDefinitions\HerokuappStepDefinition.java
+C:\Users\enesm\IdeaProjects\SeleniumCucumberNotes\src\test\java\stepDefinitions\ExcelStepDefinition.java
 C:\Users\enesm\IdeaProjects\SeleniumCucumberNotes\src\test\java\stepDefinitions\GuruStepDefinition.java
 C:\Users\enesm\IdeaProjects\SeleniumCucumberNotes\src\test\java\runners\TestRunner2.java
 C:\Users\enesm\IdeaProjects\SeleniumCucumberNotes\src\test\java\pages\HMCPage.java
@@ -9,7 +10,9 @@ C:\Users\enesm\IdeaProjects\SeleniumCucumberNotes\src\test\java\stepDefinitions\
 C:\Users\enesm\IdeaProjects\SeleniumCucumberNotes\src\test\java\stepDefinitions\AmazonStepDefinition.java
 C:\Users\enesm\IdeaProjects\SeleniumCucumberNotes\src\test\java\stepDefinitions\DataTablesStepDefinition.java
 C:\Users\enesm\IdeaProjects\SeleniumCucumberNotes\src\test\java\pages\AmazonPage.java
+C:\Users\enesm\IdeaProjects\SeleniumCucumberNotes\src\test\java\stepDefinitions\AutomationStepDefinition.java
 C:\Users\enesm\IdeaProjects\SeleniumCucumberNotes\src\test\java\stepDefinitions\Hooks.java
+C:\Users\enesm\IdeaProjects\SeleniumCucumberNotes\src\test\java\pages\AutomationPage.java
 C:\Users\enesm\IdeaProjects\SeleniumCucumberNotes\src\test\java\pages\HerokuappPage.java
 C:\Users\enesm\IdeaProjects\SeleniumCucumberNotes\src\test\java\pages\GuruPage.java
 C:\Users\enesm\IdeaProjects\SeleniumCucumberNotes\src\test\java\runners\TestRunner.java

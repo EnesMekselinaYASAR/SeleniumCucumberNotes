@@ -2,8 +2,8 @@ C:\Users\enesm\IdeaProjects\SeleniumCucumberNotes\src\test\java\pages\DataTables
 C:\Users\enesm\IdeaProjects\SeleniumCucumberNotes\src\test\java\utilities\ConfigReader.java
 C:\Users\enesm\IdeaProjects\SeleniumCucumberNotes\src\test\java\utilities\Driver.java
 C:\Users\enesm\IdeaProjects\SeleniumCucumberNotes\src\test\java\stepDefinitions\HerokuappStepDefinition.java
-C:\Users\enesm\IdeaProjects\SeleniumCucumberNotes\src\test\java\runners\Runner.java
 C:\Users\enesm\IdeaProjects\SeleniumCucumberNotes\src\test\java\stepDefinitions\GuruStepDefinition.java
+C:\Users\enesm\IdeaProjects\SeleniumCucumberNotes\src\test\java\runners\TestRunner2.java
 C:\Users\enesm\IdeaProjects\SeleniumCucumberNotes\src\test\java\pages\HMCPage.java
 C:\Users\enesm\IdeaProjects\SeleniumCucumberNotes\src\test\java\stepDefinitions\HMCStepDefinitions.java
 C:\Users\enesm\IdeaProjects\SeleniumCucumberNotes\src\test\java\stepDefinitions\AmazonStepDefinition.java
@@ -12,3 +12,4 @@ C:\Users\enesm\IdeaProjects\SeleniumCucumberNotes\src\test\java\pages\AmazonPage
 C:\Users\enesm\IdeaProjects\SeleniumCucumberNotes\src\test\java\stepDefinitions\Hooks.java
 C:\Users\enesm\IdeaProjects\SeleniumCucumberNotes\src\test\java\pages\HerokuappPage.java
 C:\Users\enesm\IdeaProjects\SeleniumCucumberNotes\src\test\java\pages\GuruPage.java
+C:\Users\enesm\IdeaProjects\SeleniumCucumberNotes\src\test\java\runners\TestRunner.java

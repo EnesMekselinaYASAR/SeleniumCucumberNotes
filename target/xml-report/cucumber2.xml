@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="37.106" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="US1005 dogru kullanici adi ve sifre ile giris yapabilmeli" name="TC08 positive login test" time="36.768">
+<failure/>
+<system-out><![CDATA[
+Given kullanici "hmcUrl" anasayfasinda......................................passed
+Then gizli baglanti uyarisi verirse gelismise ve ilerleye tiklar............passed
+Then Log in  yazisina tiklar................................................passed
+And gecerli username girer..................................................passed
+And gecerli password girer..................................................passed
+And Login butonuna basar....................................................passed
+Then sayfaya giris yaptigini kontrol ederAnd sayfayi kapatir................undefined
+]]></system-out>
+</testcase>
+</testsuite>

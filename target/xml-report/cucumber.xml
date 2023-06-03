@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="13.681" tests="1" skipped="0" failures="1" errors="0">
-<testcase classname="US1003 kullanici parametre kullanarak arama yapabilmeli" name="TC06 kullanici parametre ile amazonda arama yapabilmeli" time="13.281">
-<failure type="java.lang.AssertionError">
-<![CDATA[java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:87)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at org.junit.Assert.assertTrue(Assert.java:53)
-	at stepDefinitions.AmazonStepDefinition.sonuclarinIcerdiginiTestEder(AmazonStepDefinition.java:69)
-	at ✽.sonuclarin "Kutella" icerdigini test eder(file:///C:/Users/enesm/IdeaProjects/SeleniumCucumberNotes/src/test/resources/features/US1003_parametreKullanimi.feature:9)
-]]>
-</failure>
+<testsuite name="Cucumber" time="22.136" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="US1002 Kullanici ortak adimlari Background ile calistirir" name="TC04 amazon nutella arama" time="12.02">
 <system-out><![CDATA[
 Given kullanici amazon anasayfasinda........................................passed
-And kullanici "Nutella" icin arama yapar....................................passed
-And sonuclarin "Kutella" icerdigini test eder...............................failed
-Then sayfayi kapatir........................................................skipped
+And kullanici Nutella icin arama yapar......................................passed
+Then sonuclarin Nutella icerdigini test eder................................passed
+And sayfayi kapatir.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1002 Kullanici ortak adimlari Background ile calistirir" name="TC05 amazon java arama" time="9.819">
+<system-out><![CDATA[
+Given kullanici amazon anasayfasinda........................................passed
+And kullanici Java icin arama yapar.........................................passed
+Then sonuclarin Java icerdigini test eder...................................passed
+And sayfayi kapatir.........................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

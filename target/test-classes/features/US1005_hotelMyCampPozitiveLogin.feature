@@ -1,5 +1,5 @@
 Feature: US1005 dogru kullanici adi ve sifre ile giris yapabilmeli
-  @hmc
+  @hmc @pr2
   Scenario: TC08 positive login test
     Given kullanici "hmcUrl" anasayfasinda
     Then gizli baglanti uyarisi verirse gelismise ve ilerleye tiklar

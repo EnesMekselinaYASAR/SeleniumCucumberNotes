@@ -50,9 +50,9 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                14,
-                0,
-                0,
+                7,
+                1,
+                6,
                 0,
                 1
             ],
@@ -106,8 +106,8 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                2,
-                1
+                0,
+                2
             ],
             backgroundColor: [
                 "#00B000",
@@ -140,7 +140,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 3) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 2) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -153,8 +153,8 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                   1,
-                   1
+                   0,
+                   2
                ],
                backgroundColor: [
                 "#00B000",
@@ -230,7 +230,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>cucumber-framework</td>
         <td>1</td>
-      <td>03 Jun 2023, 10:52</td>
+      <td>03 Jun 2023, 11:42</td>
     </tr>
   </tbody>
 </table>
@@ -325,21 +325,21 @@ $(document).ready(function() {
 
   <tbody>
       <tr>
-        <td class="tagname"><a href="report-feature_2262913179.html">US1002 Kullanici ortak adimlari Background ile calistirir</a></td>
+        <td class="tagname"><a href="report-feature_3979602342.html">US1012 kullanici register yapabilmeli</a></td>
 
-        <td      class="passed"    >8</td>
-        <td >0</td>
-        <td >0</td>
+        <td      class="passed"    >1</td>
+        <td      class="failed"    >1</td>
+        <td     class="skipped"   >6</td>
         <td >0</td>
         <td >0</td>
         <td class="total">8</td>
 
-        <td  class="passed"    >2</td>
         <td >0</td>
-        <td class="total">2</td>
+        <td  class="failed"    >1</td>
+        <td class="total">1</td>
 
-        <td class="duration" data-value="18496574800">18.496</td>
-        <td class="passed">Passed</td>
+        <td class="duration" data-value="20563057700">20.563</td>
+        <td class="failed">Failed</td>
       </tr>
       <tr>
         <td class="tagname"><a href="report-feature_1_1412616582.html">US1005 dogru kullanici adi ve sifre ile giris yapabilmeli</a></td>
@@ -355,7 +355,7 @@ $(document).ready(function() {
         <td  class="failed"    >1</td>
         <td class="total">1</td>
 
-        <td class="duration" data-value="36445402500">36.445</td>
+        <td class="duration" data-value="12584994100">12.584</td>
         <td class="failed">Failed</td>
       </tr>
   </tbody>
@@ -363,33 +363,33 @@ $(document).ready(function() {
   <tfoot class="total">
     <tr>
       <td></td>
-      <td>14</td>
-      <td>0</td>
-      <td>0</td>
+      <td>7</td>
+      <td>1</td>
+      <td>6</td>
       <td>0</td>
       <td>1</td>
       <td>15</td>
 
+      <td>0</td>
       <td>2</td>
-      <td>1</td>
-      <td>3</td>
+      <td>2</td>
 
-      <td class="duration">54.941</td>
+      <td class="duration">33.148</td>
       <td>2</td>
     </tr>
     <tr>
       <td></td>
-      <td>93.33%</td>
-      <td>0.00%</td>
-      <td>0.00%</td>
+      <td>46.67%</td>
+      <td>6.67%</td>
+      <td>40.00%</td>
       <td>0.00%</td>
       <td>6.67%</td>
       <td></td>
-      <td>66.67%</td>
-      <td>33.33%</td>
+      <td>0.00%</td>
+      <td>100.00%</td>
       <td></td>
       <td></td>
-      <td>50.00%</td>
+      <td>0.00%</td>
     </tr>
   </tfoot>
 </table>

@@ -1,5 +1,7 @@
 stepDefinitions\AmazonStepDefinition.class
 pages\GuruPage.class
+stepDefinitions\AutomationStepDefinition.class
+pages\AutomationPage.class
 stepDefinitions\DataTablesStepDefinition.class
 pages\HerokuappPage.class
 pages\AmazonPage.class
